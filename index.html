@@ -351,14 +351,74 @@
                 <p>It is a long established fact that a reader will be distracted by the
                     readable content of a page when looking at its layout.</p>
             </div>
-
-            <div class="rounded text-light d-grid col-2 mx-auto">
+            <!-- No modal -->
+            <!-- <div class="rounded text-light d-grid col-2 mx-auto">
                 <a href="">
                     <button class="bg-light rounded text-info">
                         <h5 class="p-1">
                             <b>Register Now</b>
                         </h5>
                     </button></a>
+            </div> -->
+
+            <div>
+                <!-- Button trigger modal -->
+                <button type="button"
+                    class="rounded text-info d-grid col-2 mx-auto bg-light rounded text-info btn btn-primary"
+                    data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    <h5 class="p-1">Register Now</h5>
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="text-info modal-title" id="staticBackdropLabel">Freelancing Webinar</h5>
+
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="d-row   text-primary">
+                                    <div>
+                                        <h4>Name:</h4>
+                                        <input type="text">
+                                    </div>
+                                    <div>
+                                        <h4>Father's Name:</h4>
+                                        <input type="text">
+                                    </div>
+                                    <div>
+                                        <h4>Mother's Name:</h4>
+                                        <input type="text">
+                                    </div>
+                                    <div>
+                                        <h4>Address:</h4>
+                                        <input type="text">
+                                    </div>
+                                    <div>
+                                        <h4>Facebook ID:</h4>
+                                        <input type="text">
+                                    </div>
+                                    <div>
+                                        <h4>E-mail ID:</h4>
+                                        <input type="text">
+                                    </div>
+                                    <div>
+                                        <h4>Mobile Number:</h4>
+                                        <input type="text">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn  btn-primary">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section> <br /> <br /> <br />
 
